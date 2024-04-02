@@ -7,4 +7,3 @@
 ## 개발환경 셋팅
 
 - react-helmet-async 패키지 설치
-- react-helmet 패키지 설치
