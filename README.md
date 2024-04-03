@@ -59,3 +59,40 @@ ico 파비콘의 경우 하나의 ico 파일에 여러가지 사이즈를 두고
 <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png" />
 <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
 ```
+
+## SEO 스코어 분석
+
+### 1. [seobility](https://www.seobility.net/en/seocheck/)
+
+![스크린샷 2024-04-03 13 30 25](https://github.com/seonjuuuu/react-seo/assets/62421526/95840d29-c34b-4b79-b70c-a0a35107683e)
+
+### 2.[semrush](https://ko.semrush.com/)
+
+![스크린샷 2024-04-03 14 27 27](https://github.com/seonjuuuu/react-seo/assets/62421526/a008060e-7a05-4612-b54c-c792b9f69861)
+
+### 3.[seositecheckup](https://seositecheckup.com/)
+
+![스크린샷 2024-04-03 15 08 04](https://github.com/seonjuuuu/react-seo/assets/62421526/f32af755-319d-47a1-a092-1a48065accad)
+
+### 개선해보기
+
+1. heading Tag, 시멘틱 태그
+
+- H1 태그에 대한 중요성을 가장 이야기를 많이 하고 있다. H1 태그는 무조건 페이지 하나에 하나씩 들어가야 하는데 H1 태그가 없어서 그부분에 대한 개선이 필요하다
+- 웹접근성을 높이기 위한 시멘틱 태그를 쓰는 것이 매우 중요하다.
+
+2. SEO 를 위해서 충분한 Text 필요
+
+- SEO 에서는 충분한 단어수, 충분한 문장에 대한 부분도 평가를 한다. 그렇기 때문에 점수를 높이기 위해서는 충분한 Text를 가지는 것이 중요하다.
+
+3. meta tag, title 설정 필요
+
+- React 에서 react-helmet-async를 사용하여 동적으로 값을 넣어 주고 있으나 요소에서는 검색이 되어도 페이지 소스보기에서는 변하지 않았다. SSR 이 아니기 때문에 발생하는 문제인데, 기본적으로 index.html에 기본 값을 설정해주고 값을 동적으로 받아와 처리하는 것이 일단은 안전하다는 생각이 들었다. 하지만 동적으로 변하는 값에 대한 부분을 읽어오지 못하는 문제점이 있기 때문에 SEO 에 대응하기 위해서는 SSR을 사용하는것이 맞는것 같다.
+
+4. viewport 설정
+
+- viewport에 대한 설정을 해주는 것또한 SEO 스코어에 영향을 미침을 알 수 있었다.
+
+5. sitemap.xml 설정, robots.txt 설정
+
+- sitemap , robots 설정을 해서 구글봇이 더 잘 읽도록 설정을 하는것이 중요하다.
