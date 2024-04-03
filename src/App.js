@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="App">
       <Helmet>
-        <title>seo 대응하기</title>
+        <title>SEO</title>
         <meta name="description" content="seo 대응하기"></meta>
         <meta name="theme-color" content="#008f68"></meta>
         <meta name="keywords" content="react, meta tags, seo" />
