@@ -21,6 +21,10 @@ function App() {
         <meta property="og:description" content="Description Here" />
         <meta property="og:site_name" content="Site Name" />
         <meta property="og:locale" content="en_US" />
+        <meta name="twitter:card" content="SEO 개선 프로젝트" />
+        <meta name="twitter:title" content="SEO" />
+        <meta name="twitter:description" content="SEO를 개선하는 프로젝트" />
+        <meta name="twitter:image" content="이미지 주소" />
       </Helmet>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
