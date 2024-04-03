@@ -102,7 +102,7 @@ function App() {
       </Helmet>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>SEO 최적화 프로젝트</p>
+        <h1>SEO 최적화 프로젝트</h1>
       </header>
     </div>
   );
