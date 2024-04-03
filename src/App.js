@@ -25,6 +25,7 @@ function App() {
         <meta name="twitter:title" content="SEO" />
         <meta name="twitter:description" content="SEO를 개선하는 프로젝트" />
         <meta name="twitter:image" content="이미지 주소" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link
           rel="apple-touch-icon"
           sizes="57x57"
